@@ -12,7 +12,14 @@
 
 
 \title{Assessing the accessibility components in the Moodle platform architecture to propose improvements based on WCAG guidelines.}
-\author{Amanda Paulina Bermudez Mendez, Gerardo Adolfo Salas Montoya}
+
+\author{\IEEEauthorblockN{Amanda Paulina Bermudez Mendez, Gerardo Adolfo Salas Montoya}
+\IEEEauthorblockA{\\Master’s degree in software engineering with emphasis on software architecture and design\\
+Universidad Cenfotec\\
+San Jose, Costa Rica\\
+Email: \{gsalasm, abermudezm\}@ucenfotec.ac.cr }}
+
+
 \date{\today}
 
 
@@ -36,16 +43,6 @@
     Online learning
 \end{IEEEkeywords}
 
-\section{Objective}
-The main objective of this study is to evaluate the accessibility components of the Moodle e-learning platform and provide improvement recommendations based on the application of WCAG guidelines (version 2.2).
-
-\section{Specific Objectives}
-\begin{enumerate}
-    \item Analyze the current accessibility components of the Moodle platform at Universidad Cenfotec. This analysis aims to obtain an initial diagnosis of the situation by reviewing industry best practices.
-    \item Compare the principles and accessibility criteria established in WCAG 2.2 to determine their relevance and effectiveness for improving Moodle's accessibility.
-    \item Develop recommendations based on the conducted research to address the most critical accessibility issues of Moodle at Universidad Cenfotec.
-\end{enumerate}
-
 \section{Introduction}
 Following the pandemic, we have experienced significant changes in various aspects of our lives, such as access to information, social interaction, educational methods, and work environments. Virtualization has become a reality in nearly all fields, presenting a considerable challenge for the general population and especially for individuals with disabilities in the educational sector.
 
@@ -59,7 +56,28 @@ In 2019, Directive (051-MTSS-MICITT) includes compliance with the accessibility 
 
 Despite regulatory efforts, through an evaluation conducted by the Ministry of Science, Innovation, Technology, and Telecommunications of 388 websites of evaluated institutions, it was evidenced that "86.60\% do not comply with the minimum accessibility standards to achieve basic accessibility (A) rating" (quoted in PROSIC, 2022, p.42).
 
-Notably, private institutions currently have no obligation to adhere to the WCAG guidelines within their websites. In the context of education, this lack of obligation poses a significant challenge. Therefore, this project aims to consolidate a proposal for improving the institutional webpage of Universidad Cenfotec.
+Notably, private institutions currently have no obligation to adhere to the WCAG guidelines within their websites. In the context of education, this lack of obligation poses a significant challenge. Therefore, this project aims to consolidate a proposal for improving the institutional webpage of Universidad Cenfotec. 
+
+Conforming to the Goal-Question-Metric (GQM) paradigm \cite{Basili1992}, the goal of this research can be stated as follows:
+
+\begin{itemize}
+\item[] {\textbf{\textit{Apply:}}} An evaluation to the accessibility components of the Moodle e-learning plataform.
+\item[] {\textbf{\textit{for the purpose of:}}} provide improvements and recommendations.
+\item[] {\textbf{\textit{With respect to:}}} WCAG version 2.2 guidelines.
+\item[] {\textbf{\textit{From the point of view of:}}} researchers and software engineering practitioners
+\item[] {\textbf{\textit{In the context of:}}} suggests and provide recommendations to inprove accessibility for education platforms.
+\end{itemize}
+
+\vspace{1cm}
+The structure of the rest of the article is as follows. Section
+II presents research questions. Section III discusses related
+and state-of-the-art works. Background is described
+in IV. The research methodology is explained in Section V and
+the objectives are presented in Section VI and VII. Section
+VIII describes the tool uses for this analysis "IBM EQUAL ACCESSIBILITY CHECKER". Section IX addresses
+the description of the e-learning tool that is been evaluated.Section X describes the WCAG guidelines.And, Finally, Section XI and XII discusses the results, conclusions
+and presents future work.
+
 
 \section{Research Questions.}
 This section lists the main research questions that we set out to answer.
@@ -68,28 +86,48 @@ This section lists the main research questions that we set out to answer.
     \item How can we improve the web accessibility of Universidad Cenfotec's Moodle by incorporating the main needs identified by the WCAG 2.2 guidelines to promote greater inclusion in the web ecosystem of Universidad Cenfotec?
 \end{itemize}
 
-\section{Background}
-Many authors consider LMSs and their accessibility from different points of view. When the accessibility in context of e-learning is considered, many authors highlighted that there is a need to define criteria for instructors, authors of the contents and e-learning specialist that create and run activities on the web (Bocevska et al,2018).
-
-Given that this research is conducted within the legal context of Costa Rica, we will adopt the definition of accessibility provided in Directive 051-MTSS-MICITT (Costa Rican Executive Branch, 2019). This directive defines accessibility as "the measures adopted by public and private institutions to ensure that persons with disabilities have access, on equal terms with others, to the physical environment, transportation, information and communications, including information and communication technologies and systems, and to other services and facilities open to the public or for public use. These measures also include the identification and removal of such barriers."
 
 \section{Related Work}
-The following research has been conducted focusing on web accessibility within the context of e-learning software architecture
+The following research has been conducted focusing on web accessibility within the context of e-learning software architecture:
 
-In 2018, \cite{Schiavone2018}Schiavone published an article titled "An analysis through experiences in scientific literature and a case study," where the focus is on analyzing the accessibility of the Moodle online learning platform, reviewing previous studies and evaluating the accessibility of specific Moodle installations (Schiavone, A., 2018).
+In 2018, \cite{Schiavone2018} published an article titled "An analysis through experiences in scientific literature and a case study," where the focus is on analyzing the accessibility of the Moodle online learning platform, reviewing previous studies and evaluating the accessibility of specific Moodle installations.
 
-\cite{Acosta2016}Acosta and Luján-Mora in 2016 conducted a comparative study of three Learning Management Systems (LMS), Moodle, Sakai, and the system called ABC, developed in Ecuador to evaluate the levels of accessibility according to users' needs. They analyzed and compared the selected LMSs based on accessibility criteria, considering functional tasks on a scale with 6 levels of accessibility that can be used for decision-making and LMS selection from the perspective of teachers and students (Lujan, et al., 2016).
+\cite{Acosta2016} in 2016 conducted a comparative study of three Learning Management Systems (LMS), Moodle, Sakai, and the system called ABC, developed in Ecuador to evaluate the levels of accessibility according to users' needs. They analyzed and compared the selected LMSs based on accessibility criteria, considering functional tasks on a scale with 6 levels of accessibility that can be used for decision-making and LMS selection from the perspective of teachers and students.
 
-\cite{Bocevska2018}Boceveska, Savoska, Risvestki, and Blazeska in 2018 published the research "Analysis of Accessibility of the e-Learning Platforms According to the WCAG 2.0 Standard Compliance," which aims to analyze the accessibility of the latest public versions of several Learning Management Systems (LMS), such as Moodle, Eliademy, Docebo, Sakai, and ATutor, for people with disabilities. The analysis will evaluate compliance with different levels of criteria established in the Web Content Accessibility Guidelines (WCAG).
+\cite{Bocevska2018} published the research "Analysis of Accessibility of the e-Learning Platforms According to the WCAG 2.0 Standard Compliance," which aims to analyze the accessibility of the latest public versions of several Learning Management Systems (LMS), such as Moodle, Eliademy, Docebo, Sakai, and ATutor, for people with disabilities. The analysis will evaluate compliance with different levels of criteria established in the Web Content Accessibility Guidelines (WCAG).
 
-The web accessibility project of the University of Costa Rica focuses on the application of international web accessibility standards, specifically on the WCAG 2.1 standard. Throughout the document, there is a reference to the importance of complying with these standards to ensure that websites are accessible to all users, including people with disabilities \cite{DaSilva}(Da Silva Bermúdez, K., García Sibaja, J., Martínez de Lemos, F. J., Matarrita Brenes, P., Ureña Benavides, K., \& Vargas Varela, J.).
+The web accessibility project of the University of Costa Rica focuses on the application of international web accessibility standards, specifically on the WCAG 2.1 standard. Throughout the document, there is a reference to the importance of complying with these standards to ensure that websites are accessible to all users, including people with disabilities \cite{DaSilva}.
 
 We also find the publication "AccGuideLiner: Towards a Modelling Approach of Web Accessibility Requirements following WCAG 2.2," which describes a detailed model for describing accessibility requirements by integrating expert knowledge and domain knowledge to simplify its implementation in tools. The document is aimed at web developers, designers, accessibility engineers, and researchers who wish to understand the guidelines and accessible requirements from the technical perspective to the code phase.
 
 The main source of information is the guidelines established by WCAG 2.2 developed by the World Wide Web Consortium (W3C), which set technical standards and guidelines for creating more accessible web content for a wide range of users, including those with disabilities. These guidelines address key aspects such as perception, operability, and understanding of web content, ensuring it is accessible for both assistive technologies and users without disabilities.
 
+
+
+\section{Background}
+Many authors consider LMSs and their accessibility from different points of view. When the accessibility in context of e-learning is considered, many authors highlighted that there is a need to define criteria for instructors, authors of the contents and e-learning specialist that create and run activities on the web (Bocevska et al,2018).
+
+Given that this research is conducted within the legal context of Costa Rica, we will adopt the definition of accessibility provided in Directive 051-MTSS-MICITT (Costa Rican Executive Branch, 2019). This directive defines accessibility as "the measures adopted by public and private institutions to ensure that persons with disabilities have access, on equal terms with others, to the physical environment, transportation, information and communications, including information and communication technologies and systems, and to other services and facilities open to the public or for public use. These measures also include the identification and removal of such barriers."
+
+\section{Research Methodology}
+The research method employed in the proposal involves several key steps. Initially, the chosen topic is clearly defined, followed by an extensive search for relevant literature addressing the research problem. Databases such as Google Scholar, EBSCO, and ResearchGate are utilized for this purpose  \cite{TTawalbeh2017}. Additionally, web searches are conducted to gather information on learning management systems (LMS), WCAG compliance, and tools available for evaluating web accessibility. During this process, detailed notes are taken to capture essential insights related to the research problem, and specific evaluation tools are selected. Citations are diligently recorded to facilitate the compilation of the references list later on. The gathered information is then analyzed and integrated into the project proposal, with key findings being summarized and thoroughly discussed this process follow Biolchini Technique.\cite{FerrariFabianoJose}.
+
+Furthermore, accessibility testing and evaluation are performed on the latest public version of relevant LMS platforms, such as Moodle. The data collection process involves utilizing the IBM Equal Accessibility Checker plugin, which is installed in Google Chrome, to ensure comprehensive evaluation of web accessibility standards.
+This methodical approach ensures that the research is thorough and systematic, laying a solid foundation for the project proposal and its objectives.
+
+
+\section{Objective}
+The main objective of this study is to evaluate the accessibility components of the Moodle e-learning platform and provide improvement recommendations based on the application of WCAG guidelines (version 2.2).
+
+\section{Specific Objectives}
+\begin{enumerate}
+    \item Analyze the current accessibility components of the Moodle platform at Universidad Cenfotec using tools developed as plugins to analyze the entire accessibility infrastructure of a specific URL.
+    \item Compare the principles and accessibility criteria established in WCAG 2.2 to determine their relevance and effectiveness for improving Moodle's accessibility.
+    \item Develop recommendations based on the conducted research to address the most critical accessibility issues of Moodle at Universidad Cenfotec.
+\end{enumerate}
+
 \section{IBM equal accessibility checker}
-To collect the WCAG 2.2 ratings on the analyzed pages, we used the "IBM Equal Accessibility Checker 7.3," which is an open-source tool (https://github.com/IBMa/equal-access) and available for free. It integrates into the browser's development tools and provides a comprehensive analysis environment through the auditor's or developer's browser, allowing for automatic accessibility evaluation of the visited page.This study is conducted using Google Chrome, and therefore, the tool is obtained through the official Google Chrome extension store.
+To collect the WCAG 2.2 ratings on the analyzed pages, we used the "IBM Equal Accessibility Checker 7.3," which is an open-source tool (https://github.com/IBMa/equal-access) and available for free. It integrates into the browser's development tools and provides a comprehensive analysis environment through the auditor's or developer's browser, allowing for automatic accessibility evaluation of the visited page.This study is conducted using Google Chrome, and therefore, the tool is obtained through the official Google Chrome extension store.\cite{IBMAccessibilityEqualAccessToolkit}
 
 We will use version 7.3, which includes six new success criteria from the Web Content Accessibility Guidelines (WCAG) 2.2 Level A and AA, as well as criteria that were already included in previous versions.
 
@@ -110,7 +148,8 @@ Key features to note include:
     \item Comprehensive reports: Following the analysis, we thoroughly examine the detailed reports provided by the tool to draw conclusions and formulate recommendations aimed at improving accessibility.
 \end{itemize}
 
-The URL that will be covered in the scope of the investigation are in the taxonomy of the page in image
+This tools offers integrated accessibility testing through plug-ins and modules for Node JS and Karma \cite{Karma}
+The URL that will be covered in the scope of the investigation are in the taxonomy of the page in next image
 
 \begin{figure}[H]
     \includegraphics[width=0.48\textwidth]{images/figure1.png}
@@ -118,14 +157,112 @@ The URL that will be covered in the scope of the investigation are in the taxono
     \label{fig:figure1}
 \end{figure}
 
-\section{Analysis and Results}
+\section{MOODLE}
+Moodle is one of the most popular open source LMS options available today. It features dashboards, learner tracking, and multimedia support. This open source Learning Management System also gives the ability to create mobile-friendly online courses integrating third party add-ons. One of the standouts of this tool is the user community \cite{Moodle2024}.
+
+E-Learning has a series of conditions to have a successful learning process. The student's motivation and his/her level of responsibility and autonomy are crucial to achieve it. It is also important the quality of the digital materials and their design, as well as the appropriate learning situations and methodologies provided by the teacher to carry out learning, an accurate, quick and efficient tutoring are also fundamental elements \cite{Rahman2019}.
+
+\section{WCAG}
+The Web Content Accessibility Guidelines 2.2 \cite{W3C2023} was issued by the world's leading organization - The World Wide Web Consortium (W3C) on October 5, 2023.  In the following image are the differences between the tree version.
+
+\begin{figure}[H]
+    \includegraphics[width=0.48\textwidth]{images/figure2.png}
+    \caption{ Web Content Accessibility Guidelines 2.0 / 2.1 / 2.2}
+    \label{fig:figure2}
+\end{figure}
+
+Accessibility, usability, and inclusion are three important factors to be considered while developing a website usable by people with disabilities \cite{W3C2020}. The  WAI suggests a set of WCAG guidelines to be followed by developers of any website. Thus, each tool is checked if it follows at least one version of WCAG standards like WCAG 2.0, WCAG 2.1 and WCAG 2.2. 
+
+Success criteria WCAG guidelines available at the W3C have a testable success criterion \cite{W3C2008} that can be categorized into three levels of conformance namely A, AA and AAA respectively. Each conformance level creates a better user experience for a wider audience. Thus, we ensured to select tools that follow at least two levels of conformance to evaluate a webpage no less than sufficiently accessible. The conformance levels are as follows:
+\begin{itemize}
+    \item Level A (Lowest Level): This holds the lowest level of accessibility success criterion to be satisfied by any website to be classified as accessible. A few suggestions by this level include-provide text alternatives for all non-text content; provide equivalent information for time-based media; create content that may be presented in multiple ways; use of color; audio and keyboard controls. 
+    \item Level AA (Sufficient Level): This holds a higher level of accessibility success criterion than Level A. The website should meet all conditions mentioned in Level A. Additionally, it should include live audio caption; audio description; text contrast and resizing; text over images; appropriate labels/headings.
+    \item Level AAA (Highest Level): This holds the highest level of accessibility success criterion. The website should successfully meet all the criteria mentioned in Level A and Level AA along with extended audio descriptions; sign languages; multimedia alternatives and interruptions; and content size.
+\end{itemize} 
+
+\section{POUR factors}
+
+Guidelines and success criteria defined by the W3C are organized around four principles called the POUR factors. These principles lay the foundation necessary for anyone to access and use Web content with ease \cite{Moorman1999}. POUR is the abbreviation of Perceivable, Operable, Understandable and Robust. Each of the web accessibility evaluation tool is checked to follow at least one of the four factors. Additionally, information available on the website should be:
+
+
+\begin{itemize}
+    \item Perceivable: The user interface components and information on website must be presented in a way that can be perceived by users with ease.
+    \item Operable: Navigation and user interface components must be operable. This is necessary for users to operate all components required for interaction.
+    \item Understandable: Operation and information of the interface must be understandable by the user. This is necessary as users must be able to understand the information and operations offered by website.
+    \item Robust: Contents of website should work across.
+\end{itemize}
+
+
+
+\section{Results}
 The W3 Consortium provides a publicly available quick reference for objectively rating the integration of accessibility into a platform. The WCAG 2.2 guidelines have a list of categories that can be rated on three levels: A, AA, and AAA. The lowest category, A, indicates poor accessibility, while the AA category signifies meeting all criteria of the A rating plus additional criteria. The highest category, AAA, implies that the previous levels are met.
 
 We have established tree levels to categorize the issue founded in the analysis.
 
+\begin{figure}[H]
+    \includegraphics[width=0.48\textwidth]{images/scanResult.png}
+    \caption{Issues Scan Result}
+    \label{fig:scanResult}
+\end{figure}
 
-\section{Conclusions}
-Here are the conclusions about the .....
+\begin{figure}[H]
+    \includegraphics[width=0.48\textwidth]{images/operablePrinciple.png}
+    \caption{Operable Principle}
+    \label{fig:operablePrinciple}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=0.48\textwidth]{images/perceivablePrinciple.png}
+    \caption{Perceivable Principle}
+    \label{fig:perceivablePrinciple}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=0.48\textwidth]{images/robustPrinciple.png}
+    \caption{Robust Principle}
+    \label{fig:robustPrinciple}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=0.48\textwidth]{images/undestandablePrinciple.png}
+    \caption{Undestandable Principle}
+    \label{fig:undestandablePrinciple}
+\end{figure}
+
+
+
+
+
+\section{Solution Proposal}
+
+
+
+
+\section{CONCLUSIONS AND FUTURE WORK}
+\begin{itemize}
+    \item The importance of e-learning in the educational process is steadily increasing, necessitating that universities provide comprehensive facilities for both students and teachers to access knowledge through this medium. Ensuring accessibility across all aspects of the learning management system (LMS) platform is essential to enable seamless interaction with tools, modules, peers, and instructors.
+    \item Moodle boasts commendable accessibility features, particularly in terms of customizable design elements, style options, selection editors, and alert configurations. However, there are notable gaps in accessibility considerations, particularly concerning session timeout protocols and default page settings.
+    \item Moodle demonstrates strong adherence to accessibility criteria in various aspects such as page titles, breadcrumbs, navigation bars and menus, as well as link types and texts, ensuring visibility and navigational clarity for users with diverse needs.
+\end{itemize}
+Moodle has good accessibility features regarding customizing the design, style, selection editor, alert types, saving current state, but it does not consider accessibility criteria with respect to session timeout and default page.  
+Moodle considered a good accessibility criteria with respect to page title, breadcrumbs, navigation bars and menu, link type and link text, visible.
+
+\vspace{1cm}
+
+
+\begin{table}[h]
+    \centering
+    \caption{Summary}
+    \label{tab:tab1}
+    \begin{tabular}{|c|c|c|c|c|}
+        \hline
+        Total issues & Violations & Needs review & Recomendations & Hidden \\
+        \hline
+        75 & 12 & 37 & 26 & 0 \\
+        \hline
+    \end{tabular}
+\end{table}
+
 
 \nocite{}
 \bibliography{references}
