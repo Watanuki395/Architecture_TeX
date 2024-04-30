@@ -4,6 +4,7 @@
 \usepackage{hyperref}
 \usepackage{xurl}
 \usepackage{float}
+\usepackage{tabularx}
 \graphicspath{{./images/}}
 
 
@@ -180,8 +181,7 @@ Success criteria WCAG guidelines available at the W3C have a testable success cr
     \item Level AAA (Highest Level): This holds the highest level of accessibility success criterion. The website should successfully meet all the criteria mentioned in Level A and Level AA along with extended audio descriptions; sign languages; multimedia alternatives and interruptions; and content size.
 \end{itemize} 
 
-\section{POUR factors}
-
+\subsection{POUR factors}
 Guidelines and success criteria defined by the W3C are organized around four principles called the POUR factors. These principles lay the foundation necessary for anyone to access and use Web content with ease \cite{Moorman1999}. POUR is the abbreviation of Perceivable, Operable, Understandable and Robust. Each of the web accessibility evaluation tool is checked to follow at least one of the four factors. Additionally, information available on the website should be:
 
 
@@ -197,48 +197,118 @@ Guidelines and success criteria defined by the W3C are organized around four pri
 \section{Results}
 The W3 Consortium provides a publicly available quick reference for objectively rating the integration of accessibility into a platform. The WCAG 2.2 guidelines have a list of categories that can be rated on three levels: A, AA, and AAA. The lowest category, A, indicates poor accessibility, while the AA category signifies meeting all criteria of the A rating plus additional criteria. The highest category, AAA, implies that the previous levels are met.
 
-We have established tree levels to categorize the issue founded in the analysis.
+We have established different levels to categorize the issue founded in the analysis.
+
+As we can see int the \ref{fig:figure3} it displays the issues and non-issues found in different sections of the Moodle platform that Universidad CENFOTEC uses for virtual education. The pages evaluated in this analysis are shown on the y-axis. It is worth noting that the "Landing Page" has a higher proportion of non-issues compared to issues, while the "Landing Page Course" has slightly more issues than non-issues. This graph can be used as a diagnostic tool to identify areas where web accessibility can be improved to comply with WCAG standards, ensuring an inclusive experience for all users.
 
 \begin{figure}[H]
     \includegraphics[width=0.48\textwidth]{images/scanResult.png}
-    \caption{Issues Scan Result}
-    \label{fig:scanResult}
+    \caption{Issues scan result}
+    \label{fig:figure3}
 \end{figure}
+
+
+Also, in the figure \ref{fig:figure4}, \ref{fig:figure5}, \ref{fig:figure6} and \ref{fig:figure7} the bar charts presents a comparison of web accessibility across different sections of the Moodle platform. The chart is devised to showcase compliance with WCAG standards focusing on the operability of web pages. The blue and orange bars facilitate an immediate visual comparison, with orange bars representing issues without a violation consistently outperforming the blue ones that represent violations to the WCAG principles. This suggests that the page has good accessibility. The evaluated categories include “Landing Page”, “My Courses”, “Grades”, and “Landing Page Course”. The highest bar reaches nearly the value of 35 on the Y-axis, indicating a high level of operable accessibility. Another way to interpret this chart is as an accessibility blueprint, where each bar represents a pillar of the web structure. The height of the bars reflects the solidity and compliance with accessibility principles, which is essential for building an inclusive web environment.
 
 \begin{figure}[H]
     \includegraphics[width=0.48\textwidth]{images/operablePrinciple.png}
     \caption{Operable Principle}
-    \label{fig:operablePrinciple}
+    \label{fig:figure4}
 \end{figure}
+
 
 \begin{figure}[H]
     \includegraphics[width=0.48\textwidth]{images/perceivablePrinciple.png}
     \caption{Perceivable Principle}
-    \label{fig:perceivablePrinciple}
+    \label{fig:figure5}
 \end{figure}
+
 
 \begin{figure}[H]
     \includegraphics[width=0.48\textwidth]{images/robustPrinciple.png}
     \caption{Robust Principle}
-    \label{fig:robustPrinciple}
+    \label{fig:figure6}
 \end{figure}
 
 \begin{figure}[H]
     \includegraphics[width=0.48\textwidth]{images/undestandablePrinciple.png}
-    \caption{Undestandable Principle}
-    \label{fig:undestandablePrinciple}
+    \caption{Understandable Principle}
+    \label{fig:figure7}
 \end{figure}
 
 
+The following is a comprehensive evaluation of the Moodle platform used by Universidad CENFOTEC, as summarized in \ref{tab:table1}. The evaluation highlights the acceptance criteria that have scored the highest and lowest across all sections of the platform. The criterion "3.2.2 On Input" has received the highest score of 16 for the "Landing Page", indicating that the platform has exceptional performance in handling user input. However, the criterion "1.4.1 Use of Color" has scored the lowest, suggesting potential improvements in color usage for a better user experience. Some criteria like "2.4.3 Focus Order" and "3.3.2 Labels or Instructions" have not received any scores, which may imply that they are either not applicable or have not been evaluated. By the same token, the "My Course" section has achieved the highest total score of 47, indicating that it has effectively complied with most acceptance criteria. Conversely, the "Grades" section, with the lowest total score of 31, might have more room for improvement. While these insights provide a quantitative overview of the platform's performance, they should be complemented with qualitative user feedback for a holistic understanding of the platform's functionality and user experience.
+\begin{table}[h]
+    \centering
+    \caption{Acceptance Criteria (A)}
+    \label{tab:table1}
+    \begin{tabularx}{\columnwidth}{|X|c|X|X|X|}
+    \hline
+    \textbf{Acceptance Criteria} & \textbf{Grades} & \textbf{Landing Page} & \textbf{Landing Page Course} & \textbf{My Course} \\ 
+    \hline
+    1.1.1 Non-text Content & 2 & 4 & 5 & 5 \\ 
+    \hline
+    1.3.1 Info and Relationships & 7 & 7 & 7 & 5 \\
+    \hline
+    1.4.1 Use of Color & 1 & 1 & 1 & 1 \\
+    \hline
+    2.1.1 Keyboard & 1 & - & 6 & 2 \\
+    \hline
+    2.4.1 Bypass Blocks & 3 & 11 & 7 & 9 \\
+    \hline
+    2.4.3 Focus Order & - & - & - & 2 \\
+    \hline
+    2.5.3 Label in Name & 1 & 1 & 3 & 4 \\
+    \hline
+    3.2.2 On Input & 8 & 16 & 8 & 8 \\
+    \hline
+    3.3.2 Labels or Instructions & - & - & - & 2 \\
+    \hline
+    4.1.2 Name, Role, Value & 8 & 3 & 3 & 9 \\
+    \hline
+    \textbf{Total} & 31 & 43 & 40 & 47 \\
+    \hline
+    \end{tabularx}
+\end{table}
 
 
 
-\section{Solution Proposal}
+The "Acceptance Criteria (AA)" represented in the \ref{tab:table2} shows a comprehensive evaluation of the Moodle platform utilized by Universidad CENFOTEC. The criterion "1.4.3 Contrast (Minimum)" is only applicable or evaluated for the "Landing Page Course" with a score of 5. On the other hand, the criterion "2.4.11 Focus Not Obscured (Minimum)" has a low score of 1 for "Grades", "Landing Page", and "Landing Page Course", suggesting potential areas for improvement. The criterion "2.4.7 Focus Visible" performs well in the "Landing Page" with the highest score of 16. Moreover, the criterion "2.5.8 Minimum Target Size" has the highest scores across all sections, with "My Courses" scoring the highest at 22, suggesting satisfactory target size across all sections.
+
+The total scores reveal that "My Courses" effectively meets most of the acceptance criteria with a total score of 37, while the "Grades" section has the lowest total score of 30, indicating that there is more room for improvement. These insights provide a quantitative overview of the platform's performance against various acceptance criteria, highlighting areas of strength and potential improvement. However, it's always a good idea to gather qualitative feedback from users to complement these quantitative metrics.
+
+\begin{table}[h]
+    \centering
+    \caption{Acceptance Criteria (AA)}
+    \label{tab:table2}
+    \begin{tabularx}{\columnwidth}{|X|X|X|X|X|}
+    \hline
+    \textbf{Acceptance Criteria} & \textbf{Grades} & \textbf{Landing Page} & \textbf{Landing Page Course} & \textbf{My Courses}  \\ 
+    \hline
+    1.4.3 Contrast (Minimum) & - & - & 5 & - 
+    \\ \hline
+    2.4.11 Focus Not Obscured (Minimum) & 1 & 1 & 1 & - 
+    \\ \hline
+    2.4.7 Focus Visible & 8 & 16 & 8 & 15 
+    \\ \hline
+    2.5.8 Minimum Target Size & 21 & 18 & 20 & 22 
+    \\ \hline
+    \textbf{Total} & 30 & 35 & 34 & 37 
+    \\ \hline
+    \end{tabularx}
+    \end{table}
+    
 
 
 
+\section{Solution proposal}
+The platform has demonstrated strong performance in certain areas such as "On Input" and "Minimum Target Size", indicating effective user input handling and satisfactory target size across all sections. However, there are areas that require improvement, particularly in "Use of Color" and "Focus Not Obscured (Minimum)". To enhance the user experience, it is recommended to revisit the design elements related to color usage and focus visibility. This may involve adopting a more contrasting color scheme to improve readability and ensuring that the focus is not obscured during navigation. 
 
-\section{CONCLUSIONS AND FUTURE WORK}
+In addition to these improvements, it would be beneficial to implement a comprehensive training program for the faculty and staff at Universidad CENFOTEC. The program could focus on the importance of web accessibility and provide practical guidance on how to create and maintain accessible content. Incorporating user feedback into the platform's development process can also ensure that it evolves to meet the changing needs of its users. Regular accessibility audits can be conducted to identify any new issues and monitor the effectiveness of implemented solutions. Furthermore, considering partnerships with accessibility consultants or services could provide valuable expertise and resources. By fostering an institutional culture that values accessibility, Universidad CENFOTEC can ensure that its Moodle platform remains an effective and inclusive tool for learning.
+
+
+
+\section{Conclusions and future work}
 \begin{itemize}
     \item The importance of e-learning in the educational process is steadily increasing, necessitating that universities provide comprehensive facilities for both students and teachers to access knowledge through this medium. Ensuring accessibility across all aspects of the learning management system (LMS) platform is essential to enable seamless interaction with tools, modules, peers, and instructors.
     \item Moodle boasts commendable accessibility features, particularly in terms of customizable design elements, style options, selection editors, and alert configurations. However, there are notable gaps in accessibility considerations, particularly concerning session timeout protocols and default page settings.
@@ -246,23 +316,6 @@ We have established tree levels to categorize the issue founded in the analysis.
 \end{itemize}
 Moodle has good accessibility features regarding customizing the design, style, selection editor, alert types, saving current state, but it does not consider accessibility criteria with respect to session timeout and default page.  
 Moodle considered a good accessibility criteria with respect to page title, breadcrumbs, navigation bars and menu, link type and link text, visible.
-
-\vspace{1cm}
-
-
-\begin{table}[h]
-    \centering
-    \caption{Summary}
-    \label{tab:tab1}
-    \begin{tabular}{|c|c|c|c|c|}
-        \hline
-        Total issues & Violations & Needs review & Recomendations & Hidden \\
-        \hline
-        75 & 12 & 37 & 26 & 0 \\
-        \hline
-    \end{tabular}
-\end{table}
-
 
 \nocite{}
 \bibliography{references}

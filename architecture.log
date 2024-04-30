@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3.31) (preloaded format=pdflatex 2024.4.15)  28 APR 2024 20:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3.31) (preloaded format=pdflatex 2024.4.15)  29 APR 2024 21:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -242,67 +242,86 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box53
 \@float@everytoks=\toks22
 \@floatcapt=\box54
+) (C:\Users\Ore\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2023/07/08 v2.11c `tabularx' package (DPC)
+ (C:\Users\Ore\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen170
+\ar@mcellbox=\box55
+\extrarowheight=\dimen171
+\NC@list=\toks23
+\extratabsurround=\skip52
+\backup@length=\skip53
+\ar@cellbox=\box56
+)
+\TX@col@width=\dimen172
+\TX@old@table=\dimen173
+\TX@old@col=\dimen174
+\TX@target=\dimen175
+\TX@delta=\dimen176
+\TX@cols=\count282
+\TX@ftn=\toks24
 ) (C:\Users\Ore\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-03-14 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count282
-\l__pdf_internal_box=\box55
+\l__color_backend_stack_int=\count283
+\l__pdf_internal_box=\box57
 ) (architecture.aux)
 \openout1 = `architecture.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
 
 -- Lines per column: 58 (exact).
 (C:\Users\Ore\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count283
-\scratchdimen=\dimen170
-\scratchbox=\box56
-\nofMPsegments=\count284
-\nofMParguments=\count285
-\everyMPshowfont=\toks23
-\MPscratchCnt=\count286
-\MPscratchDim=\dimen171
-\MPnumerator=\count287
-\makeMPintoPDFobject=\count288
-\everyMPtoPDFconversion=\toks24
+\scratchcounter=\count284
+\scratchdimen=\dimen177
+\scratchbox=\box58
+\nofMPsegments=\count285
+\nofMParguments=\count286
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count287
+\MPscratchDim=\dimen178
+\MPnumerator=\count288
+\makeMPintoPDFobject=\count289
+\everyMPtoPDFconversion=\toks26
 ) (C:\Users\Ore\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (C:\Users\Ore\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 27.
+Package hyperref Info: Link coloring OFF on input line 28.
  (architecture.out) (architecture.out)
 \@outlinefile=\write3
 \openout3 = `architecture.out'.
 
-LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 30.
+LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 31.
  (C:\Users\Ore\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <11> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 30.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 31.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 64.
+(Font)              <7> on input line 65.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 64.
+(Font)              <5> on input line 65.
  [1{C:/Users/Ore/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Ore/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
 
 
@@ -310,12 +329,12 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 <images/figure1.png, id=101, 328.97906pt x 264.99pt>
 File: images/figure1.png Graphic file (type png)
 <use images/figure1.png>
-Package pdftex.def Info: images/figure1.png  used on input line 155.
+Package pdftex.def Info: images/figure1.png  used on input line 156.
 (pdftex.def)             Requested size: 247.6778pt x 199.50621pt.
 <images/figure2.png, id=106, 526.21594pt x 428.35031pt>
 File: images/figure2.png Graphic file (type png)
 <use images/figure2.png>
-Package pdftex.def Info: images/figure2.png  used on input line 169.
+Package pdftex.def Info: images/figure2.png  used on input line 170.
 (pdftex.def)             Requested size: 247.6778pt x 201.61879pt.
 
 Underfull \vbox (badness 2334) has occurred while \output is active []
@@ -324,80 +343,199 @@ Underfull \vbox (badness 2334) has occurred while \output is active []
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.173 
+l.174 
        <./images/figure1.png>]
-<images/scanResult.png, id=124, 450.18187pt x 301.125pt>
+<images/scanResult.png, id=125, 450.18187pt x 301.125pt>
 File: images/scanResult.png Graphic file (type png)
 <use images/scanResult.png>
-Package pdftex.def Info: images/scanResult.png  used on input line 203.
+Package pdftex.def Info: images/scanResult.png  used on input line 205.
 (pdftex.def)             Requested size: 247.6778pt x 165.6698pt.
-<images/operablePrinciple.png, id=125, 462.22687pt x 267.24844pt>
-File: images/operablePrinciple.png Graphic file (type png)
-<use images/operablePrinciple.png>
-Package pdftex.def Info: images/operablePrinciple.png  used on input line 209.
-(pdftex.def)             Requested size: 247.6778pt x 143.20282pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [4
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.213 
+l.212 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.213 
+l.212 
        <./images/figure2.png> <./images/scanResult.png>]
-<images/perceivablePrinciple.png, id=137, 464.4853pt x 267.24844pt>
+<images/operablePrinciple.png, id=146, 462.22687pt x 267.24844pt>
+File: images/operablePrinciple.png Graphic file (type png)
+<use images/operablePrinciple.png>
+Package pdftex.def Info: images/operablePrinciple.png  used on input line 214.
+(pdftex.def)             Requested size: 247.6778pt x 143.20282pt.
+<images/perceivablePrinciple.png, id=147, 464.4853pt x 267.24844pt>
 File: images/perceivablePrinciple.png Graphic file (type png)
 <use images/perceivablePrinciple.png>
-Package pdftex.def Info: images/perceivablePrinciple.png  used on input line 215.
+Package pdftex.def Info: images/perceivablePrinciple.png  used on input line 221.
 (pdftex.def)             Requested size: 247.6778pt x 142.50958pt.
-<images/robustPrinciple.png, id=138, 465.23813pt x 255.20343pt>
+<images/robustPrinciple.png, id=148, 465.23813pt x 255.20343pt>
 File: images/robustPrinciple.png Graphic file (type png)
 <use images/robustPrinciple.png>
-Package pdftex.def Info: images/robustPrinciple.png  used on input line 221.
+Package pdftex.def Info: images/robustPrinciple.png  used on input line 228.
 (pdftex.def)             Requested size: 247.6778pt x 135.86075pt.
-<images/undestandablePrinciple.png, id=139, 459.21562pt x 257.46187pt>
-File: images/undestandablePrinciple.png Graphic file (type png)
-<use images/undestandablePrinciple.png>
-Package pdftex.def Info: images/undestandablePrinciple.png  used on input line 227.
-(pdftex.def)             Requested size: 247.6778pt x 138.86234pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 257.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 257.
- (architecture.bbl [5
+<images/undestandablePrinciple.png, id=149, 459.21562pt x 257.46187pt>
+File: images/undestandablePrinciple.png Graphic file (type png)
+<use images/undestandablePrinciple.png>
+Package pdftex.def Info: images/undestandablePrinciple.png  used on input line 234.
+(pdftex.def)             Requested size: 247.6778pt x 138.86234pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--271
+[]|\OT1/ptm/b/n/8 Acceptance
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--271
+[]|\OT1/ptm/b/n/8 Landing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--271
+[]|\OT1/ptm/b/n/8 Landing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--271
+\OT1/ptm/b/n/8 Page
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--271
+[]|\OT1/ptm/m/n/8 1.1.1 Non-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--271
+[]|\OT1/ptm/m/n/8 1.3.1 Info
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--271
+\OT1/ptm/m/n/8 and Re-la-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--271
+[]|\OT1/ptm/m/n/8 2.1.1
+ []
+
+
+Underfull \hbox (badness 2245) in paragraph at lines 271--271
+[]|\OT1/ptm/m/n/8 2.4.3 Fo-cus
+ []
+
+
+Underfull \hbox (badness 4168) in paragraph at lines 271--271
+[]|\OT1/ptm/m/n/8 2.5.3 La-bel
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--271
+[]|\OT1/ptm/m/n/8 3.3.2
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--271
+\OT1/ptm/m/n/8 La-bels or
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[5
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.49 
-     
+l.277 
+      
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.49 
-     
+l.277 
+      
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.49 
-     
+l.277 
+      
 pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.49 
-     
+l.277 
+       <./images/operablePrinciple.png> <./images/perceivablePrinciple.png> <./images/robustPrinciple.png> <./images/undestandablePrinciple.png>]
+Overfull \hbox (1.17561pt too wide) in paragraph at lines 298--298
+[]|\OT1/ptm/b/n/8 Acceptance
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--298
+[]|\OT1/ptm/b/n/8 Landing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--298
+[]|\OT1/ptm/b/n/8 Landing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--298
+\OT1/ptm/b/n/8 Page
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--298
+[]|\OT1/ptm/b/n/8 My
+ []
+
+
+Underfull \hbox (badness 1755) in paragraph at lines 298--298
+[]|\OT1/ptm/m/n/8 1.4.3 Con-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--298
+[]|\OT1/ptm/m/n/8 2.4.11
+ []
+
+
+Underfull \hbox (badness 4060) in paragraph at lines 298--298
+\OT1/ptm/m/n/8 Fo-cus Not
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--298
+\OT1/ptm/m/n/8 Ob-scured
+ []
+
+
+Underfull \hbox (badness 1755) in paragraph at lines 298--298
+[]|\OT1/ptm/m/n/8 2.5.8 Min-
+ []
+
+
+Underfull \hbox (badness 2435) in paragraph at lines 298--298
+\OT1/ptm/m/n/8 i-mum Tar-
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ (architecture.bbl [6
 pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.49 
-      <./images/operablePrinciple.png> <./images/perceivablePrinciple.png> <./images/robustPrinciple.png> <./images/undestandablePrinciple.png>]
+l.35 \bibitem{Instituto2018}
+                            
+pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.35 \bibitem{Instituto2018}
+                            ]
 Underfull \hbox (badness 10000) in paragraph at lines 51--53
 []\OT1/ptm/m/n/8 V. R. Basili, ``Soft-ware mod-el-ing and mea-sure-ment: The
  []
@@ -407,7 +545,7 @@ Underfull \hbox (badness 1354) in paragraph at lines 74--80
 \OT1/ptm/m/n/8 P. Matar-rita Brenes, K. Ure[]na Be-na-vides, and J. Var-gas Varela,
  []
 
-) [6
+) [7
 
 ] (architecture.aux)
  ***********
@@ -415,20 +553,20 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
  ***********
 Package rerunfilecheck Info: File `architecture.out' has not changed.
-(rerunfilecheck)             Checksum: E73D281B32502EE0EA27792D3CFBE2F4;1768.
+(rerunfilecheck)             Checksum: 626A6C532E85AD2731FDF81BB0B91342;1783.
  ) 
 Here is how much of TeX's memory you used:
- 9450 strings out of 474424
- 153575 string characters out of 5742683
- 1948496 words of memory out of 5000000
- 31647 multiletter control sequences out of 15000+600000
- 593414 words of font info for 95 fonts, out of 8000000 for 9000
+ 9577 strings out of 474424
+ 155488 string characters out of 5742683
+ 1959496 words of memory out of 5000000
+ 31764 multiletter control sequences out of 15000+600000
+ 595657 words of font info for 97 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 75i,8n,79p,1048b,581s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,1348b,578s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Ore/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Ore/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Ore/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Ore/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Ore/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Ore/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on architecture.pdf (6 pages, 513673 bytes).
+Output written on architecture.pdf (7 pages, 522280 bytes).
 PDF statistics:
- 212 PDF objects out of 1000 (max. 8388607)
- 52 named destinations out of 1000 (max. 500000)
+ 226 PDF objects out of 1000 (max. 8388607)
+ 54 named destinations out of 1000 (max. 500000)
  156 words of extra memory for PDF output out of 10000 (max. 10000000)
 

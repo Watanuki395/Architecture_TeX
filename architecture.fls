@@ -124,6 +124,10 @@ INPUT C:\Users\Ore\AppData\Local\Programs\MiKTeX\tex\latex\xurl\xurl.sty
 INPUT C:\Users\Ore\AppData\Local\Programs\MiKTeX\tex\latex\xurl\xurl.sty
 INPUT C:\Users\Ore\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
 INPUT C:\Users\Ore\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Users\Ore\AppData\Local\Programs\MiKTeX\tex\latex\tools\tabularx.sty
+INPUT C:\Users\Ore\AppData\Local\Programs\MiKTeX\tex\latex\tools\tabularx.sty
+INPUT C:\Users\Ore\AppData\Local\Programs\MiKTeX\tex\latex\tools\array.sty
+INPUT C:\Users\Ore\AppData\Local\Programs\MiKTeX\tex\latex\tools\array.sty
 INPUT C:\Users\Ore\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\Ore\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT .\architecture.aux
@@ -191,6 +195,8 @@ INPUT .\images\scanResult.png
 INPUT .\images\scanResult.png
 INPUT .\images\scanResult.png
 INPUT .\images\scanResult.png
+INPUT C:\Users\Ore\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmri7t.vf
+INPUT C:\Users\Ore\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
 INPUT .\images\operablePrinciple.png
 INPUT .\images\operablePrinciple.png
 INPUT .\images\operablePrinciple.png
@@ -231,6 +237,8 @@ INPUT .\architecture.bbl
 INPUT architecture.bbl
 INPUT C:\Users\Ore\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmrc7t.vf
 INPUT C:\Users\Ore\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
+INPUT C:\Users\Ore\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
+INPUT C:\Users\Ore\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT C:\Users\Ore\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmri7t.vf
 INPUT C:\Users\Ore\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
 INPUT architecture.aux
