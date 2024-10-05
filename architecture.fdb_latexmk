@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex architecture"] 1714447845.50536 "architecture.aux" "architecture.bbl" "architecture" 1714447847.84834 0
+["bibtex architecture"] 1714449208.39815 "architecture.aux" "architecture.bbl" "architecture" 1714449211.24204 0
   "./references.bib" 1714337981 6268 1ce664515f30dd6110186adf9d89a1ba ""
   "C:/Users/Ore/AppData/Local/Programs/MiKTeX/bibtex/bst/ieeetran/IEEEtran.bst" 1440622569 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "architecture.aux" 1714447846 4681 903b16bba4400b9b65412dd57e157c13 "pdflatex"
+  "architecture.aux" 1714449210 4681 1eb3ff6f4376e5ea6f36a3311679a130 "pdflatex"
   (generated)
   "architecture.bbl"
   "architecture.blg"
   (rewritten before read)
-["pdflatex"] 1714447845.83984 "c:/Users/Ore/Documents/Git Projects/Architecture_TeX/architecture.tex" "architecture.pdf" "architecture" 1714447847.84905 0
+["pdflatex"] 1714449208.81894 "c:/Users/Ore/Documents/Git Projects/Architecture_TeX/architecture.tex" "architecture.pdf" "architecture" 1714449211.24274 0
   "C:/Users/Ore/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1714336236 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/Ore/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1713229757 24235062 4331d4375578390c9c8b0d9b20ba0042 ""
   "C:/Users/Ore/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -84,11 +84,11 @@
   "C:/Users/Ore/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/Ore/AppData/Local/Programs/MiKTeX/tex/latex/xurl/xurl.sty" 1641733940 4675 e4b8c405820368c2dfb03526e16d725a ""
   "IEEEtran.cls" 1713196958 281957 5b2e4fa15b0f7eabb840ebf67df4c0f7 ""
-  "architecture.aux" 1714447846 4681 903b16bba4400b9b65412dd57e157c13 "pdflatex"
-  "architecture.bbl" 1714447845 5044 f21231f52fb3812196d9c79e5becd966 "bibtex architecture"
-  "architecture.out" 1714447846 1783 626a6c532e85ad2731fdf81bb0b91342 "pdflatex"
-  "architecture.tex" 1714447842 30212 4c987a03d2a53a4e5021decc1a34679f ""
-  "c:/Users/Ore/Documents/Git Projects/Architecture_TeX/architecture.tex" 1714447842 30212 4c987a03d2a53a4e5021decc1a34679f ""
+  "architecture.aux" 1714449210 4681 1eb3ff6f4376e5ea6f36a3311679a130 "pdflatex"
+  "architecture.bbl" 1714449208 5044 f21231f52fb3812196d9c79e5becd966 "bibtex architecture"
+  "architecture.out" 1714449210 1783 626a6c532e85ad2731fdf81bb0b91342 "pdflatex"
+  "architecture.tex" 1714449204 30692 d0e5d4bc66a4ff4095342edaacc71099 ""
+  "c:/Users/Ore/Documents/Git Projects/Architecture_TeX/architecture.tex" 1714449204 30692 d0e5d4bc66a4ff4095342edaacc71099 ""
   "images/figure1.png" 1714331614 21366 26c9acf704347d904672d4d8b7f04ab7 ""
   "images/figure2.png" 1714332371 302393 5728ebb5f3d1788a50bcbc3e9ff532e9 ""
   "images/operablePrinciple.png" 1714359075 26721 01659675d60d2d7de0f4790cd2ca2191 ""
